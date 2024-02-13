@@ -23,7 +23,7 @@ pipeline{
       stage('Package'){
         steps{
           sh ''
-          docker push yashpimple22/nodeapp:$(BUILD_NUMBER)
+          docker push deepanshusharma007/nodeapp:$(BUILD_NUMBER)
           '''
       }
      }
